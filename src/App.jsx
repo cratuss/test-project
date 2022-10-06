@@ -1,30 +1,11 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import "./App.css";
+// import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>편집</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>
-          편집 <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">편집</p>
-    </div>
-  );
+  return <div>편집</div>;
 }
 
 export default App;
